@@ -1,0 +1,75 @@
+@media (max-width: 768px) {
+
+/*About Us*/
+    .about-us {
+        flex-direction: column;
+    }
+
+    .about-us-text {
+        padding-right: 0;
+    }
+
+    .about-us-image {
+        flex-basis: 666%;
+    }
+
+/*What We Do*/
+    .what-we-do {
+    padding-bottom: 52px;
+    }
+
+    .what-we-do-icons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .what-we-do-icons-item {
+        margin-bottom: 3rem;
+    }
+
+/*Our trips*/
+    .our-trips-item {
+    flex-basis: 70%;
+    }
+
+    .our-trips-item img {
+    height: 450px;
+    }
+
+/*Where do you want to go?*/
+    .where-do-you-want-to-go-without-link {
+    flex-direction: column;
+    }
+
+    .where-do-you-want-to-go-text {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+    }
+
+    .where-do-you-want-to-go-text p {
+        margin-bottom: 2rem;
+    }
+
+    .where-do-you-want-to-go-link {
+        text-align: start;
+        margin: 0;
+    }
+
+/*Reviews*/
+    .reviews-comments {
+    flex-direction: column;
+    }
+    
+    .reviews-comments-1 {
+        margin-right: 0;
+        margin-bottom: 3rem;
+    }
+    
+/*Gallery*/
+    .gallery img {
+        width: 100%;
+        height: 500px;
+    }
+}

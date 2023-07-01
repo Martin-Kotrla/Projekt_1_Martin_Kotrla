@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.6;
+}
+
+/*header*/
+header {
+    min-height: 90vh;
+    background: url(images/scott-goodwill-y8Ngwq34_Ak-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+header h1 {
+    color: #fff;
+    font-size: 4rem;
+    position: absolute;
+    right: 4rem;
+    bottom: 5rem;
+    line-height: 4.5rem;
+    text-align: end;
+}
+
+/*main*/
+/*About Us*/
+.about-us {
+    display: flex;
+    margin: 0 10%;
+    padding: 100px 0;
+    align-items: center;
+    justify-content: center;
+}
+.about-us-text {
+    padding-right: 4rem;
+}
+.about-us-text h2 {
+    font-size: 3rem;
+    padding-bottom: 1rem;
+}
+.about-us-image img {
+    width: 100%;
+    height: 339px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.about-us-text,.about-us-image {
+  flex-basis: 450px;
+}
+
+/*What We Do*/
+.what-we-do {
+    background: #33292a;
+    padding: 100px 0;
+}
+.what-we-do-text {
+    color: #fff;
+    text-align: center;
+    margin: 0 25%;
+    margin-bottom: 100px;
+}
+.what-we-do-text h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+.what-we-do-icons {
+    display: flex;
+    justify-content: space-evenly;
+    filter: invert(1);
+    text-align: center;
+}
+
+/*Our trips*/
+.our-trips {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+.our-trips-item {
+    flex-basis: 25%;
+    margin: 5px 5px 0 5px ;
+}
+.our-trips-item img {
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+.our-trips-item h2 {
+    text-align: center;
+    background: #f2f2f2;
+    font-size: 3rem;
+    border-radius: 5px;
+    padding: 61.6px 0;
+    margin-bottom: 7.2px;
+}
+
+/*Where do you want to go?*/
+.where-do-you-want-to-go {
+    background: #644b4f;
+    color: #fff;
+    padding: 100px 20%;
+}
+.where-do-you-want-to-go-without-link {
+    display: flex;
+    justify-content: space-evenly;
+}
+.where-do-you-want-to-go-heading {
+    font-size: 2rem;
+}
+.where-do-you-want-to-go-text {
+    margin-left: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 60%;
+}
+.where-do-you-want-to-go-link {
+    text-align: center;
+    margin-top: 2rem;
+}
+.where-do-you-want-to-go-link a {
+    text-decoration: none;
+    color: black;
+    background: #fff;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 12px;
+}
+.where-do-you-want-to-go-link a:hover {
+    color: #e9877b;
+} 
+
+/*Reviews*/
+.reviews {
+    padding: 100px 20%;
+}
+.reviews p {
+    margin-top: 1rem;
+}
+.reviews-about {
+    text-align: center;
+    max-width: 50%;
+    margin: 0 auto 3rem;
+}
+.reviews-about h2 {
+    font-size: 3rem;
+}
+.reviews-comments {
+    display: flex;
+    text-align: center;
+}
+.reviews-comments img {
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    object-fit: cover;
+}
+.reviews-comments-name {
+    font-size: large;
+}
+.reviews-comments-1 {
+    margin-right: 5rem;
+}
+
+/*Gallery*/
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+.gallery img {
+    width: 50%;
+    height: 300px;
+    object-fit: cover;
+}
+
+/*Footer*/
+footer {
+    text-align: center;
+    background: #333333;
+    color: #f2f2f2;
+    padding: 2rem 0;
+}
+footer a {
+    color: #efa69d;
+    text-decoration: none;
+    border-bottom: 2px solid #efa69d;
+    padding-bottom: 3px;
+}
+footer a:hover {
+    color: #e9877b;
+    border-bottom: 2px solid #e9877b;
+}
+footer p {
+    margin-top: 1rem;
+}
